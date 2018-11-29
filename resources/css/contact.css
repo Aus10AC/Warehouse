@@ -1,0 +1,162 @@
+#contact {
+  margin: 5.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+@media only screen and (max-width: 900px) {
+
+  #contact {
+    margin: 2em 0;
+    padding: 0;
+    transform: scale(.8);
+  }
+
+}
+
+
+#contact-page {
+  background-image: url('../img/contact-background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact-page header {
+  background-color: rgba(183, 175, 163, 1);
+}
+
+#contact form {
+  margin: 3em;
+  height: 400px;
+  width: 500px;
+  padding: 1em;
+  border: 1px solid rgba(34, 132, 193, 1);
+  border-radius: 1em;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 1px 20px 1px rgba(0, 0, 0, 0.70), 0 1px 20px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+@media only screen and (max-width: 470px) {
+
+  #contact {
+    margin: 2em 0;
+    padding: 0;
+    transform: scale(.7);
+  }
+
+  #contact form {
+    margin: 0;
+  }
+  #contact form:hover {
+    box-shadow: 0 1px 20px 1px rgba(0, 0, 0, 0.70), 0 1px 20px 1px rgba(0, 0, 0, 0.7);
+    transform: none;
+  }
+}
+
+#contact form div + div {
+  margin-top: 1em;
+}
+
+#contact label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-left: .2em;
+}
+
+#contact input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  height: 1em;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#contact input:focus, textarea:focus {
+  border-color: dodgerblue;
+  color: black;
+}
+
+#contact textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+#contact .form-button {
+  text-align: center;
+  cursor: pointer;
+}
+
+#contact .form-button button {
+  padding: 8px;
+  border-radius: 5%;
+  background-color: ghostwhite;
+  color: rgba(34, 132, 193, 1);
+  width: 100px;
+  transition: 600ms;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#contact.form-button button:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: green;
+}
+
+#contact h2 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  opacity: 0.9;
+  margin: .3em 0 .5em 0;
+}
+
+#contact .icons,
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 10px 0 15px 0;
+}
+
+#contact .icons ul li {
+  display: inline;
+}
+
+#contact .icons ul li a {
+  transition: 500ms;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+#contact .icons a:hover {
+  text-decoration: none;
+  color: rgba(34, 132, 193, 1);
+}
+
+#contact .icons ul:hover li a i {
+  transform: scale(1.1);
+  opacity: .5;
+  filter: blur(3px);
+}
+
+#contact .icons ul li a i:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  filter: blur(0);
+}
+
+/* Contact Footer */

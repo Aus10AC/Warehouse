@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WareHouse</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Data AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+
+    <header>
+      <div class="image-container logo">
+        <a href="index.html"><img src="resources/img/warehouse-logo.svg" alt="warehouse logo" class="svg"></a>
+      </div>
+      <div class="burger-nav">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <a href="deals.html">Today's Deals</a>
+          <a href="products.html">All Products</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="search-bar">
+        <input type="text" name="search" placeholder="Search for items">
+        <a href="" class="icon"><img src="resources/img/search.svg" alt="search for products"></a>
+      </div>
+      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="check your shopping cart"></a>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="deals.html">Today's Deals</a>
+      <a href="products.html">All Products</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Sofas Section -->
+
+    <div id="main" class="product-list-section" data-aos="fade-in"
+                                                data-aos-delay="100"
+                                                data-aos-duration="500">
+      <ul class="breadcrumb">
+        <li><a href="products.html">All Products</a></li>
+        <li><a href="living.html">Living Room</a></li>
+        <li>Sofas</li>
+      </ul>
+
+      <div class="product-list">
+        <a href="#" class="product-item" data-aos="fade-in"
+                                         data-aos-delay="200"
+                                         data-aos-duration="1000">
+          <div class="image-container">
+            <img src="resources/img/sofas/grey-sofa.jpg" alt="our finest grey sofa">
+            <div class="recent-middle">
+              <div class="recent-text">Add to Cart</div>
+            </div>
+          </div>
+          <div class="description">
+            <h3>Grey Sofa</h3>
+            <span class="price">$499</span>
+          </div>
+        </a>
+
+        <a href="#" class="product-item" data-aos="fade-in"
+                                         data-aos-delay="300"
+                                         data-aos-duration="1500">
+          <div class="image-container">
+            <img src="resources/img/sofas/charcoal-sofa.jpg" alt="a modern charocal colored sofa">
+            <div class="recent-middle">
+              <div class="recent-text">Add to Cart</div>
+            </div>
+          </div>
+          <div class="description">
+            <h3>Charcoal Sofa</h3>
+            <span class="price">$799</span>
+          </div>
+        </a>
+
+        <a href="#" class="product-item" data-aos="fade-in"
+                                         data-aos-delay="400"
+                                         data-aos-duration="2000">
+          <div class="image-container">
+            <img src="resources/img/sofas/white-sofa.jpg" alt="an elegant white sofa">
+            <div class="recent-middle">
+              <div class="recent-text">Add to Cart</div>
+            </div>
+          </div>
+          <div class="description">
+            <h3>White Sofa</h3>
+            <span class="price">$699</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer data-aos="fade-in"
+            data-aos-delay="100"
+            data-aos-duration="2500">
+      <div class="links link-one">
+        <a href="index.html" class="footer-img"><img src="resources/img/home.png" alt="take me back to the home page"></a>
+        <div class="link-icons">
+          <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+          <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+          <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="links link-two">
+        <h4>Get to know us</h4>
+        <a href="about.html">About us</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="#">Investor relations</a>
+        <a href="#">Link</a>
+      </div>
+      <div class="links link-three">
+        <h4>Make money with us</h4>
+        <a href="sell.html">Sell on WareHouse</a>
+        <a href="#">Become a vendor</a>
+        <a href="#">Fundraiser events</a>
+        <a href="#">Community outreach</a>
+      </div>
+      <div class="links link-four">
+        <h4>Help</h4>
+        <a href="contact.html">Contact us</a>
+        <a href="#">Conditions of use</a>
+        <a href="#">Report a problem</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="resources/js/sideNav.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

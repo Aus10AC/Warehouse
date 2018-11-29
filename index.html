@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WareHouse</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/index.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
+    <!-- Data AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <!-- Header -->
+
+      <header>
+        <div class="image-container logo">
+          <a href="index.html"><img src="resources/img/warehouse-logo.svg" alt="warehouse logo" class="svg"></a>
+        </div>
+        <div class="burger-nav">
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="deals.html">Today's Deals</a>
+            <a href="products.html">All Products</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="search-bar">
+          <input type="text" name="search" placeholder="Search for items">
+          <a href="" class="icon"><img src="resources/img/search.svg" alt="search for products"></a>
+        </div>
+        <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="check your shopping cart"></a>
+      </header>
+      <nav data-aos="fade-in"
+           data-aos-delay="100"
+           data-aos-duration="1000">
+        <a href="index.html">Home</a>
+        <a href="deals.html">Today's Deals</a>
+        <a href="products.html">All Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <!-- Hero Section -->
+      <main id="main" class="landing">
+        <figure class="hero" data-aos="fade-in"
+                             data-aos-delay="150"
+                             data-aos-duration="1500">
+          <figcaption>
+            <a href=""><h2>Shop Dining Tables</h2></a>
+          </figcaption>
+        </figure>
+
+      <!-- Products Preview Section -->
+
+        <div class="products" data-aos="fade-in"
+                              data-aos-delay="200"
+                              data-aos-duration="2000">
+
+          <!-- Product Categories -->
+
+
+          <section class="product-list categories">
+            <h2>Shop by category</h2>
+
+            <a href="living.html" class="product-category" data-aos="fade-right"
+                                                           data-aos-delay="350"
+                                                           data-aos-duration="2000">
+              <div class="image-container">
+                <img src="resources/img/home/living-room.jpg" alt="shop for living rooms">
+                <div class="overlay">
+                  <div class="text">View living rooms</div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="product-category" data-aos="fade-in"
+                                                 data-aos-delay="350"
+                                                 data-aos-duration="3000">
+              <div class="image-container">
+                <img src="resources/img/home/bedroom.jpg" alt="shop for bedroom furniture">
+                <div class="overlay">
+                  <div class="text">View bedrooms</div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="product-category" data-aos="fade-in"
+                                                 data-aos-delay="350"
+                                                 data-aos-duration="3000">
+              <div class="image-container">
+                <img src="resources/img/home/bathroom.jpg" alt="shop for bathroom products">
+                <div class="overlay">
+                  <div class="text">View bathrooms</div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="product-category" data-aos="fade-left"
+                                                 data-aos-delay="350"
+                                                 data-aos-duration="2000">
+              <div class="image-container">
+                <img src="resources/img/home/dining-room.jpg" alt="shop for dining room products">
+                <div class="overlay">
+                  <div class="text">View dining rooms</div>
+                </div>
+              </div>
+            </a>
+
+          </section>
+
+          <!-- Recently Viewed Products -->
+
+          <h2 data-aos="fade-in"
+              data-aos-delay="100"
+              data-aos-duration="1000">Recently Viewed</h2>
+              
+          <section class="product-list" id="product-hover" data-aos="fade-in"
+                                                           data-aos-delay="100"
+                                                           data-aos-duration="1000">
+
+            <a href="#" class="product-item">
+              <div class="image-container">
+                <img src="resources/img/home/yellow-chair.jpg" alt="buy one of our quality yellow chairs">
+                <div class="recent-middle">
+                  <div class="recent-text">Add to Cart</div>
+                </div>
+              </div>
+              <div class="description">
+                <h3>Yellow Chair</h3>
+                <span class="price">$189</span>
+              </div>
+            </a>
+
+            <a href="#" class="product-item">
+              <div class="image-container">
+                <img src="resources/img/home/round-table.jpg" alt="a fine dinner table for your kitchen">
+                <div class="recent-middle">
+                  <div class="recent-text">Add to Cart</div>
+                </div>
+              </div>
+              <div class="description">
+                <h3>Round Table</h3>
+                <span class="price">$249</span>
+              </div>
+            </a>
+
+            <a href="#" class="product-item">
+              <div class="image-container">
+                <img src="resources/img/home/white-chair.jpg" alt="purchase our elegant studio chair">
+                <div class="recent-middle">
+                  <div class="recent-text">Add to Cart</div>
+                </div>
+              </div>
+              <div class="description">
+                <h3>White Chair</h3>
+                <span class="price">$99</span>
+              </div>
+            </a>
+
+            <a href="#" class="product-item">
+              <div class="image-container">
+                <img src="resources/img/home/desk-lamp.jpg" alt="purchase a lamp for your desk">
+                <div class="recent-middle">
+                  <div class="recent-text">Add to Cart</div>
+                </div>
+              </div>
+              <div class="description">
+                <h3>Desk Lamp</h3>
+                <span class="price">$25</span>
+              </div>
+            </a>
+
+          </section>
+        </div>
+      </main>
+
+      <!-- Footer -->
+
+      <footer data-aos="fade-in"
+              data-aos-delay="100"
+              data-aos-duration="2500">
+        <div class="links link-one">
+          <a href="index.html" class="footer-img"><img src="resources/img/home.png" alt="take me back to the home page"></a>
+          <div class="link-icons">
+            <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+            <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+            <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
+        </div>
+        <div class="links link-two">
+          <h4>Get to know us</h4>
+          <a href="about.html">About us</a>
+          <a href="jobs.html">Jobs</a>
+          <a href="#">Investor relations</a>
+          <a href="#">Link</a>
+        </div>
+        <div class="links link-three">
+          <h4>Make money with us</h4>
+          <a href="sell.html">Sell on WareHouse</a>
+          <a href="#">Become a vendor</a>
+          <a href="#">Fundraiser events</a>
+          <a href="#">Community outreach</a>
+        </div>
+        <div class="links link-four">
+          <h4>Help</h4>
+          <a href="contact.html">Contact us</a>
+          <a href="#">Conditions of use</a>
+          <a href="#">Report a problem</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </footer>
+    </div>
+
+  <!-- Scripts -->
+  <script src="resources/js/sideNav.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  </body>
+</html>
