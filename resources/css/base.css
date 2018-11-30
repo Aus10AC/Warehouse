@@ -159,7 +159,7 @@ select {
 }
 
 .product-item .description h3 {
-  color: rgba(34, 132, 193, 1);
+  color: rgba(183, 175, 163, 1);
   font-size: 1.5em;
 }
 
@@ -204,7 +204,7 @@ select {
 }
 
 .product-item .price {
-  color: hsla(0, 0%, 29%, 1);
+  color: rgba(109, 146, 155, 1);
 }
 
 
@@ -402,7 +402,7 @@ nav a:active{
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  box-shadow: 0px 5px 20px 2px black; 
+  box-shadow: 0px 5px 20px 2px black;
 }
 
 .sidenav a {
